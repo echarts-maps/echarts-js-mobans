@@ -1,0 +1,14 @@
+{
+    "JUPYTER_URL": "/nbextensions/{{project_name}}",
+    "GITHUB_URL": "https://{{project_name}}.github.io/{{project_name}}/{{project_name}}",
+    "JUPYTER_ENTRY": "{{project_name}}/index",
+    "JS_FOLDER": "{{project_name}}",
+    "PINYIN_MAP": {
+        /* "Chinese text": "Chinese pinyin or nickname", */
+        /* "伦敦": "lundun", */
+    },
+    "FILE_MAP": {
+        /* "nick name": "map js file name" */
+        /* "lundun": "london", */
+    }
+}
