@@ -17,3 +17,8 @@ templates:
   - package.json: package.json.jj2
   - "{{project_name}}/index.js": index.js.jj2
 static: []
+post-moban:
+  git-repo-files:
+    - "{{project_name}}"
+    - "package.json"
+    - "registry.json"
