@@ -9,14 +9,18 @@ questions:
   - description: "description:"
   - license: "license:"
   - author: "author:"
-mobans: []
+mobans: ['https://github.com/echarts-maps/echarts-maps-project-info']
 layout:
   - "{{project_name}}"
+  - .moban.d
 templates:
   - registry.json: registry.json.jj2
   - package.json: package.json.jj2
   - "{{project_name}}/index.js": index.js.jj2
-static: []
+  - .moban.yml: project-moban.yml
+static:
+  - ".moban.d/custom_readme.md.jj2": "custom_readme.md.jj2"
+  - changelog.yml: "changelog.yml"
 post-moban:
   git-repo-files:
     - "{{project_name}}"
