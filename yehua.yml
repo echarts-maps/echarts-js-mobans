@@ -9,11 +9,13 @@ questions:
   - description: "description:"
   - license: "license:"
   - author: "author:"
-mobans: ['https://github.com/echarts-maps/echarts-maps-project-info']
+mobans:
+  - 'mobans': https://github.com/echarts-maps/echarts-maps-project-info.git
 layout:
   - "{{project_name}}"
   - .moban.d
 templates:
+  - "{{project_name}}.yml": project.yml
   - registry.json: registry.json.jj2
   - package.json: package.json.jj2
   - "{{project_name}}/index.js": index.js.jj2
@@ -26,3 +28,9 @@ post-moban:
     - "{{project_name}}"
     - "package.json"
     - "registry.json"
+    - ".moban.d"
+    - CHANGELOG.md
+    - changelog.yml
+    - README.md
+    - "{{project_name}}.yml"
+    - .moban.yml
