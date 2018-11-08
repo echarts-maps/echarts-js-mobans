@@ -9,8 +9,6 @@ questions:
   - description: "description:"
   - license: "license:"
   - author: "author:"
-mobans:
-  - 'mobans': https://github.com/echarts-maps/echarts-maps-project-info.git
 layout:
   - "{{project_name}}"
   - .moban.d

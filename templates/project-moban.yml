@@ -1,6 +1,8 @@
+requires:
+  - https://github.com/echarts-maps/echarts-maps-project-info.git
 configuration:
   template_dir:
-  - "mobans/templates"
+  - "echarts-maps-project-info:templates"
   - ".moban.d"
   configuration: {{project_name}}.yml
 targets:
