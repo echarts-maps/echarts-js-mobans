@@ -1,0 +1,8 @@
+name: "{{project_name}}"
+organisation: "{{organisation}}"
+author: "{{author}}"
+contact: "{{contact}}"
+company: "{{company}}"
+copyright_year: {{now.year}}
+license: {{license}}
+description: "{{description}}"
